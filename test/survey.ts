@@ -96,7 +96,7 @@ describe("Survey init", () => {
         questions,
       });
 
-      // 질문은 1개인데 응답을 2개([0, 1]) 제출하면 revert 발생
+      // 질문은 1개인데 응답을 2개 제출하면 revert 발생
       await expect(cSurvey.submitAnswer([0, 1])).to.be.reverted;
     });
 
