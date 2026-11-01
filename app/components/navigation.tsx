@@ -15,7 +15,7 @@ export default function Navigation() {
     <nav className="fixed top-0 right-0 left-0">
       <div className="flex w-screen items-center justify-between py-5 px-5">
         <Link to="/" className="text-lg font-bold">
-          DESTAT{" "}
+          DESTAT
         </Link>
         <NavigationMenu>
           <NavigationMenuList>
@@ -26,7 +26,7 @@ export default function Navigation() {
               <NavigationMenuTrigger>Survey</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid gap-2 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                  <li className="row-span-2">
+                  <li className="row-span-2 h-[150px]">
                     <NavigationMenuLink
                       className="from-muted/50 to-muted flex h-full w-full flex-col justify-center rounded-md bg-gradient-to-b no-underline outline-none focus:shadow-md"
                       href="/"
